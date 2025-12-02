@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>MrCred</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+</head>
+<body>
+  <header>
+    <div class="interface">
+      <img src="images/logo.mrcred.jpeg" alt="logomrcred" class="logo">
+    </div>
+    <nav class="menu">
+      <ul>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#servicos">Serviços</a></li>
+        <li><a href="#formulario">Solicitar</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Empréstimo consignado rápido, seguro e sem burocracia!</h2>
+    <p>Taxas reduzidas e aprovação em até 24h.</p>
+    <a href="#formulario" class="btn">Solicite Agora</a>
+  </section>
+
+  <section id="sobre">
+    <h2>Sobre Nós</h2>
+    <p>Mrcred, 13 anos oferecendo crédito com confiança em Cidade Ocidental (GO). A Mrcred é uma loja especializada em soluções financeiras, com 13 anos de atuação no mercado...</p>
+  </section>
+
+  <section id="servicos">
+    <h2>Serviços</h2>
+    <ul>
+      <li>Empréstimo consignado para aposentados pensionistas.</li>
+      <li>Crédito para servidores públicos.</li>
+      <li>Crédito Trabalhador.</li>
+      <li>Portabilidade de consignado.</li>
+      <li>Financiamento e refinanciamento.</li>
+      <li>Antecipação de FGTS.</li>
+    </ul>
+  </section>
+
+  <section id="formulario">
+    <h2>Solicitar Empréstimo</h2>
+
+    <!-- FORMULÁRIO COM FORMSPREE -->
+    <form action="https://formspree.io/f/xvgervoe" method="POST">
+      <label>Nome completo:</label>
+      <input type="text" name="Nome" required>
+
+      <label>CPF:</label>
+      <input type="text" name="CPF" required>
+
+      <label>Valor desejado (R$):</label>
+      <input type="number" name="Valor" required>
+
+      <label>Tipo de cliente:</label>
+      <select name="Tipo" required>
+        <option value="">Selecione</option>
+        <option>Aposentado</option>
+        <option>Pensionista</option>
+        <option>Servidor Público</option>
+        <option>FGTS</option>
+        <option>CLT</option>
+      </select>
+
+      <button type="submit">Enviar Solicitação</button>
+    </form>
+
+    <p style="margin-top:10px; color:#dbbc0a;">Depois de enviar, você verá uma mensagem de confirmação do Formspree.</p>
+  </section>
+
+  <section id="contato">
+    <h2>Contato</h2>
+    <p>Email: mrcredconsignado@gmail.com</p>
+    <p>WhatsApp: (61) 98568-2204</p>
+    <a href="https://www.instagram.com/mrcred_/" class="insta-link" target="_blank">
+      <i class="bi bi-instagram insta"> mrcred_</i>
+    </a>
+  </section>
+
+  <footer>
+    aaaaaaaaaaaaaaaaaaaaaaaaaa
+  </footer>
+</body>
+</html>

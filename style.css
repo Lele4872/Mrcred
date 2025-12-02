@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background: #000;
+  color: #fff;
+}
+
+header {
+  position: relative;
+  background: #000000;
+  color: #f8e800;
+  padding: 20px 0;
+  text-align: center;
+ 
+}
+
+header > .interface{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+header nav ul{
+  list-style-type: none;
+}
+
+header nav ul li{
+  display: inline-block;
+  padding: 0 40px;
+  
+}
+
+.logo{
+  height: 130px;
+  position: absolute;
+  top: 15px;
+  left: 20px;
+  cursor: pointer;
+
+}
+
+.menu ul{
+  list-style: none;
+  display: flex;
+  gap: 40px;
+  margin: 0;
+  padding: 65px;
+}
+
+
+nav ul {
+  list-style-type: none;
+  display: inline-block;
+  justify-content: center;
+  gap: 20px;
+  padding: 10px 0;
+}
+
+nav a {
+  color: #5c5c5c;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+  transition: .2s;
+}
+
+nav a:hover{
+  color: #fff;
+  transform: scale(1.05);
+}
+
+.hero {
+  background: #000;
+  color: #fff;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #dbbc0a;
+  color: #000;
+  padding: 10px 20px;
+  margin-top: 20px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+section {
+  padding: 40px 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+input, select, button {
+  padding: 10px;
+  font-size: 16px;
+}
+
+button {
+  background: #dbbc0a;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #dbbc0a;
+}
+
+footer {
+  background: #dbbc0a;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+.insta{
+  color: #dbbc0a;
+  
+}
+ 
+.insta-link{
+  text-decoration: none;
+}
